@@ -1,4 +1,7 @@
 package ra.edu.repository;
 
-public class ICanditateRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+import ra.edu.entity.Candidate;
+
+public interface ICandidateRepository extends JpaRepository<Candidate, Long> {
 }
